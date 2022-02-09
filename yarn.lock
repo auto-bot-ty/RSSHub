@@ -1251,97 +1251,96 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@napi-rs/pinyin-android-arm64@^1.6.1":
+"@napi-rs/pinyin-android-arm-eabi@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-android-arm-eabi/-/pinyin-android-arm-eabi-1.7.0.tgz#5d83648ecfc73580e8db1e41f2a2f9dae5dba454"
+  integrity sha512-gTrDc4GGoesaWdPpsLyEADki8cs3RX0oZ0ePeGvHibsWYHEa6jUVnSor64Kb651qpQas03DSksHpVcDjiykFTA==
+
+"@napi-rs/pinyin-android-arm64@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-android-arm64/-/pinyin-android-arm64-1.7.0.tgz#9e29227b9da6a727a612298a83bf4c3f04cfece2"
   integrity sha512-EEFWuOonBFLg6LLU+Zszq/GfthiiH5J4KoxvicTVPe+Bs+5eE7La2gXrXAwZid9q9LZTXrj1eHJERAOffD+skQ==
 
-"@napi-rs/pinyin-darwin-arm64@^1.6.1":
+"@napi-rs/pinyin-darwin-arm64@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-darwin-arm64/-/pinyin-darwin-arm64-1.7.0.tgz#9efe792da6bdaae558be91d6cc456a6acbd51a9e"
   integrity sha512-Eaeb1JwMhm4My+c0uuq6x/1xy6aqaNwMhR9BtKECSPuSh1hXd3AA+Y2EetZqnTggPJyb3B4B+R+vNugFv/RTOQ==
 
-"@napi-rs/pinyin-darwin-x64@^1.6.1":
+"@napi-rs/pinyin-darwin-x64@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-darwin-x64/-/pinyin-darwin-x64-1.7.0.tgz#9af49e873633a5296fb20780e37d643217f661a2"
   integrity sha512-GBNtO1DlEi3912uVbhi2hIaaX3LTUEKhvRbXCEAanqsAb7MM4Y0iJgDr5xjKGaCDv0+Rbk5bib9yy43wUuTW2A==
 
-"@napi-rs/pinyin-freebsd-x64@^1.6.1":
+"@napi-rs/pinyin-freebsd-x64@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-freebsd-x64/-/pinyin-freebsd-x64-1.7.0.tgz#85c6558b5986ac24bf06ccdd303edfb965ea1aa7"
   integrity sha512-3smO3C+Gz3WSBpYjAKm7VlT67hBnAzwIExAe2lYGqQ1SO9jUFhkYbimN/ab4XUCiPoVr0S/6vlqzm58BoEX0xQ==
 
-"@napi-rs/pinyin-linux-arm-gnueabihf@^1.6.1":
+"@napi-rs/pinyin-linux-arm-gnueabihf@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-linux-arm-gnueabihf/-/pinyin-linux-arm-gnueabihf-1.7.0.tgz#5fa3f8043c963cbd919a694fd5136599a99784c5"
   integrity sha512-dMlyC1G2ytGB8sk6Wmty4bNIrloJ2c1lkOBcqhc6kVOXIVcvYdR/9vllreAFvuWJvTlroW10N1vOZmQSpmAI1w==
 
-"@napi-rs/pinyin-linux-arm64-gnu@^1.6.1":
+"@napi-rs/pinyin-linux-arm64-gnu@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-linux-arm64-gnu/-/pinyin-linux-arm64-gnu-1.7.0.tgz#a15d5251a770e2c28235309ecee274e9c24ad73d"
   integrity sha512-WA94mKN/0Um+ysI+4Kn2rrowGbGE0NQro109LTy9BuglM0PIEl1hZYHaaQ1vw/h5ZNW0ai25HlBJffxmgQW2eA==
 
-"@napi-rs/pinyin-linux-arm64-musl@^1.6.1":
+"@napi-rs/pinyin-linux-arm64-musl@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-linux-arm64-musl/-/pinyin-linux-arm64-musl-1.7.0.tgz#6973841cc2bf3af355b8ac1fa3d1cf34ce910d07"
   integrity sha512-RtdoxvuIhbYCcZJ1IQQlvMsTWKzW84teJXqjoQRvkUGeowccM4O6bCztgmXp9WDW5dOGV4DfIMslki2ps9jaRQ==
 
-"@napi-rs/pinyin-linux-x64-gnu@^1.6.1":
+"@napi-rs/pinyin-linux-x64-gnu@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-linux-x64-gnu/-/pinyin-linux-x64-gnu-1.7.0.tgz#6b8e1056513de484d30effc2ab43ce1ba8d6f019"
   integrity sha512-LuTEGUTKTfiC5ra+eLtH4Gft3M9S93Is1avXe1jgeb9YnnrA25UH1VFMo5lxmgWW/5535SVbw7NSxocKIR4CwA==
 
-"@napi-rs/pinyin-linux-x64-musl@^1.6.1":
+"@napi-rs/pinyin-linux-x64-musl@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-linux-x64-musl/-/pinyin-linux-x64-musl-1.7.0.tgz#5effbb9e93691871feaadfd69d98651bb32c3eb3"
   integrity sha512-WUNYSJFG5E8fe8+D0bYuJUU+F4DF1devfxF/2VHfCxvRKJGo6ZWK8Cfn/iHdroU4Vk4dxXy5krRsSzJxor5ZLw==
 
-"@napi-rs/pinyin-win32-arm64-msvc@^1.6.1":
+"@napi-rs/pinyin-win32-arm64-msvc@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-win32-arm64-msvc/-/pinyin-win32-arm64-msvc-1.7.0.tgz#886f00b2529b999e06256ce40797176bbd3e7b0d"
   integrity sha512-C2lpEC/tEO+PzUssfZUmYYQFgop2RTvktiygJl+3jenU17jrzEAnyMqg7c02ClPu3JcGXHk++k7RiKY9cVBnog==
 
-"@napi-rs/pinyin-win32-ia32-msvc@^1.6.1":
+"@napi-rs/pinyin-win32-ia32-msvc@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-win32-ia32-msvc/-/pinyin-win32-ia32-msvc-1.7.0.tgz#09aa37c4c84c59dbcc9dac658a970005758b72cb"
   integrity sha512-DNMExy0kcyPf11WRunRU8aEwfzknThPLJfPQfUKaYimhJx+v5SMOQ1dapTXufJXsEphdGoXXdle6lV3NdVcKlQ==
 
-"@napi-rs/pinyin-win32-x64-msvc@^1.6.1":
+"@napi-rs/pinyin-win32-x64-msvc@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/pinyin-win32-x64-msvc/-/pinyin-win32-x64-msvc-1.7.0.tgz#1c44d2bf0ba162e6f1b617f013cb0b376f7f2a58"
   integrity sha512-fseGGv3YCHREmOCp9YY/lrm8LMo0jmQ6qsj1B0UJqmXjTxniWjfvfuwPerjHe1iSWtCAela+7vKtH9UIIWWhHw==
 
-"@napi-rs/pinyin@1.6.1":
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/@napi-rs/pinyin/-/pinyin-1.6.1.tgz#06d4e8b9182e47f6045c7169e7af557550079370"
-  integrity sha512-MILZu4btg2nBcgzbp7kvBkfWz5YhdKCwKJGed/opliU+cSBXW0vulb3iyKlQkQpj1q85bk+QZTlj0foP8/29wg==
+"@napi-rs/pinyin@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@napi-rs/pinyin/-/pinyin-1.7.0.tgz#024b12e283dffc9b673b771c78f8f51f19d4efe2"
+  integrity sha512-IZF4k2j3zIc1xKRm9lSbLE0q3/hkg3xVOIqCQzKST1ukjIcXpuWx1ntrSpFJpkKivngG3eeZf7dpQOclf1VCOw==
   dependencies:
-    "@node-rs/helper" "^1.1.1"
+    "@napi-rs/triples" "^1.1.0"
   optionalDependencies:
-    "@napi-rs/pinyin-android-arm64" "^1.6.1"
-    "@napi-rs/pinyin-darwin-arm64" "^1.6.1"
-    "@napi-rs/pinyin-darwin-x64" "^1.6.1"
-    "@napi-rs/pinyin-freebsd-x64" "^1.6.1"
-    "@napi-rs/pinyin-linux-arm-gnueabihf" "^1.6.1"
-    "@napi-rs/pinyin-linux-arm64-gnu" "^1.6.1"
-    "@napi-rs/pinyin-linux-arm64-musl" "^1.6.1"
-    "@napi-rs/pinyin-linux-x64-gnu" "^1.6.1"
-    "@napi-rs/pinyin-linux-x64-musl" "^1.6.1"
-    "@napi-rs/pinyin-win32-arm64-msvc" "^1.6.1"
-    "@napi-rs/pinyin-win32-ia32-msvc" "^1.6.1"
-    "@napi-rs/pinyin-win32-x64-msvc" "^1.6.1"
+    "@napi-rs/pinyin-android-arm-eabi" "1.7.0"
+    "@napi-rs/pinyin-android-arm64" "1.7.0"
+    "@napi-rs/pinyin-darwin-arm64" "1.7.0"
+    "@napi-rs/pinyin-darwin-x64" "1.7.0"
+    "@napi-rs/pinyin-freebsd-x64" "1.7.0"
+    "@napi-rs/pinyin-linux-arm-gnueabihf" "1.7.0"
+    "@napi-rs/pinyin-linux-arm64-gnu" "1.7.0"
+    "@napi-rs/pinyin-linux-arm64-musl" "1.7.0"
+    "@napi-rs/pinyin-linux-x64-gnu" "1.7.0"
+    "@napi-rs/pinyin-linux-x64-musl" "1.7.0"
+    "@napi-rs/pinyin-win32-arm64-msvc" "1.7.0"
+    "@napi-rs/pinyin-win32-ia32-msvc" "1.7.0"
+    "@napi-rs/pinyin-win32-x64-msvc" "1.7.0"
 
 "@napi-rs/triples@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.1.0.tgz#88c35b72e79a20b79bb4c9b3e2817241a1c9f4f9"
   integrity sha512-XQr74QaLeMiqhStEhLn1im9EOMnkypp7MZOwQhGzqp2Weu5eQJbpPxWxixxlYRKWPOmJjsk6qYfYH9kq43yc2w==
-
-"@node-rs/helper@^1.1.1":
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.3.3.tgz#2b1953846ddba31bfb7ecf4ba57e7b1359fcdedc"
-  integrity sha512-p4OdfQObGN9YFy5WZaGwlPYICQSe7xZYyXB0sxREmvj1HzGKp5bPg2PlfgfMZEfnjIA882B9ZrnagYzZihIwjA==
-  dependencies:
-    "@napi-rs/triples" "^1.1.0"
 
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
@@ -1845,22 +1844,18 @@
   dependencies:
     "@types/node" "*"
 
-"@vercel/nft@0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.17.0.tgz#28851fefe42fae7a116dc5e23a0a9da29929a18b"
-  integrity sha512-dXz4RAODHpEPl1Yfzk1UfVpZfqhY9O80FdI9sF/Hw2bXWj5022U9Z46VpdNYe8pDluSuQv/JUo/ZP4/OcsfDRw==
+"@vercel/nft@0.17.4":
+  version "0.17.4"
+  resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.17.4.tgz#45545dae173f2362e21f49ae8b6a98c3c1fd9274"
+  integrity sha512-e6kF+V0FneWpEUQJOcLn25MxuaiI4E+L8mUI4aq5mwmqIPe8L5qWK34Y8UtbQFxe4DUo6BgjDUxFPssAd0WH6g==
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.5"
-    acorn "^8.3.0"
-    acorn-class-fields "^1.0.0"
-    acorn-private-class-elements "^1.0.0"
-    acorn-static-class-features "^1.0.0"
+    acorn "^8.6.0"
     bindings "^1.4.0"
     estree-walker "2.0.2"
     glob "^7.1.3"
-    graceful-fs "^4.1.15"
+    graceful-fs "^4.2.9"
     micromatch "^4.0.2"
-    mkdirp "^0.5.1"
     node-gyp-build "^4.2.2"
     node-pre-gyp "^0.13.0"
     resolve-from "^5.0.0"
@@ -2349,13 +2344,6 @@ accepts@^1.2.5, accepts@^1.3.5, accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
     mime-types "~2.1.24"
     negotiator "0.6.2"
 
-acorn-class-fields@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/acorn-class-fields/-/acorn-class-fields-1.0.0.tgz#b413793e6b3ddfcd17a02f9c7a850f4bbfdc1c7a"
-  integrity sha512-l+1FokF34AeCXGBHkrXFmml9nOIRI+2yBnBpO5MaVAaTIJ96irWLtcCxX+7hAp6USHFCe+iyyBB4ZhxV807wmA==
-  dependencies:
-    acorn-private-class-elements "^1.0.0"
-
 acorn-globals@^4.1.0:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/acorn-globals/-/acorn-globals-4.3.4.tgz#9fa1926addc11c97308c4e66d7add0d40c3272e7"
@@ -2376,18 +2364,6 @@ acorn-jsx@^5.3.1:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"
   integrity sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==
-
-acorn-private-class-elements@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/acorn-private-class-elements/-/acorn-private-class-elements-1.0.0.tgz#c5805bf8a46cd065dc9b3513bfebb504c88cd706"
-  integrity sha512-zYNcZtxKgVCg1brS39BEou86mIao1EV7eeREG+6WMwKbuYTeivRRs6S2XdWnboRde6G9wKh2w+WBydEyJsJ6mg==
-
-acorn-static-class-features@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/acorn-static-class-features/-/acorn-static-class-features-1.0.0.tgz#ab9d862d5b184007ed509f5a8d031b837694ace2"
-  integrity sha512-XZJECjbmMOKvMHiNzbiPXuXpLAJfN3dAKtfIYbk1eHiWdsutlek+gS7ND4B8yJ3oqvHo1NxfafnezVmq7NXK0A==
-  dependencies:
-    acorn-private-class-elements "^1.0.0"
 
 acorn-walk@^6.0.1:
   version "6.2.0"
@@ -2414,7 +2390,7 @@ acorn@^7.1.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.4.1.tgz#feaed255973d2e77555b83dbc08851a6c63520fa"
   integrity sha512-nQyp0o1/mNdbTO1PO6kHkwSrmgZ0MT/jCCpNiwbUjGoRN4dlBhqJtoQuCnEOKzgTVwg0ZWiCoQy6SxMebQVh8A==
 
-acorn@^8.2.4, acorn@^8.3.0, acorn@^8.5.0, acorn@^8.7.0:
+acorn@^8.2.4, acorn@^8.5.0, acorn@^8.6.0, acorn@^8.7.0:
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.7.0.tgz#90951fde0f8f09df93549481e5fc141445b791cf"
   integrity sha512-V/LGr1APy+PXIwKebEWrkZPwoeoF+w1jiOBUmuxuiUIaOHtob8Qc9BTrYo7VuI5fR8tqsy+buA2WFooR5olqvQ==
@@ -2739,7 +2715,7 @@ async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
-async@^3.1.0:
+async@^3.2.3:
   version "3.2.3"
   resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
   integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
@@ -4893,10 +4869,10 @@ dot-prop@^5.2.0:
   dependencies:
     is-obj "^2.0.0"
 
-dotenv@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
-  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+dotenv@16.0.0:
+  version "16.0.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.0.tgz#c619001253be89ebb638d027b609c75c26e47411"
+  integrity sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==
 
 dotenv@^6.2.0:
   version "6.2.0"
@@ -6165,14 +6141,14 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-rev-sync@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/git-rev-sync/-/git-rev-sync-3.0.1.tgz#a393a97f2e4b2a0cc41e512b48065e64f4d8ca3a"
-  integrity sha512-8xZzUwzukIuU3sasgYt3RELc3Ny7o+tbtvitnnU4a4j3djyZNpJ5JmqVX+K7Xv3gE/i7ln3hGdBfZ00T5WWoow==
+git-rev-sync@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/git-rev-sync/-/git-rev-sync-3.0.2.tgz#9763c730981187c3419b75dd270088cc5f0e161b"
+  integrity sha512-Nd5RiYpyncjLv0j6IONy0lGzAqdRXUaBctuGBbrEA2m6Bn4iDrN/9MeQTXuiquw8AEKL9D2BW0nw5m/lQvxqnQ==
   dependencies:
     escape-string-regexp "1.0.5"
     graceful-fs "4.1.15"
-    shelljs "0.8.4"
+    shelljs "0.8.5"
 
 glob-parent@^3.1.0:
   version "3.1.0"
@@ -8115,10 +8091,10 @@ jsbn@~0.1.0:
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
   integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
-jsdom@18.1.1:
-  version "18.1.1"
-  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-18.1.1.tgz#15ec896f5ab7df9669a62375606f47c8c09551aa"
-  integrity sha512-NmJQbjQ/gpS/1at/ce3nCx89HbXL/f5OcenBe8wU1Eik0ROhyUc3LtmG3567dEHAGXkN8rmILW/qtCOPxPHQJw==
+jsdom@19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/jsdom/-/jsdom-19.0.0.tgz#93e67c149fe26816d38a849ea30ac93677e16b6a"
+  integrity sha512-RYAyjCbxy/vri/CfnjUWJQQtZ3LKlLnDqj+9XLNnJPgEGeirZs3hllKR20re8LUZ6o1b1X4Jat+Qd26zmP41+A==
   dependencies:
     abab "^2.0.5"
     acorn "^8.5.0"
@@ -8726,7 +8702,7 @@ lodash@>=4.17.12, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.1
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
-logform@^2.2.0, logform@^2.3.2:
+logform@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/logform/-/logform-2.3.2.tgz#68babe6a74ab09a1fd15a9b1e6cbc7713d41cb5b"
   integrity sha512-V6JiPThZzTsbVRspNO6TmHkR99oqYTs8fivMBYQkjZj6rxW92KxtDCPE6IkAk1DNBnYKNkjm4jYBm6JDUcyhOA==
@@ -9382,10 +9358,10 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
-nock@13.2.1:
-  version "13.2.1"
-  resolved "https://registry.yarnpkg.com/nock/-/nock-13.2.1.tgz#fcf5bdb9bb9f0554a84c25d3333166c0ffd80858"
-  integrity sha512-CoHAabbqq/xZEknubuyQMjq6Lfi5b7RtK6SoNK6m40lebGp3yiMagWtIoYaw2s9sISD7wPuCfwFpivVHX/35RA==
+nock@13.2.4:
+  version "13.2.4"
+  resolved "https://registry.yarnpkg.com/nock/-/nock-13.2.4.tgz#43a309d93143ee5cdcca91358614e7bde56d20e1"
+  integrity sha512-8GPznwxcPNCH/h8B+XZcKjYPXnUV5clOKCjAqyjsiqA++MpNx9E9+t8YPp0MbThO+KauRo7aZJ1WuIZmOrT2Ug==
   dependencies:
     debug "^4.1.0"
     json-stringify-safe "^5.0.1"
@@ -10672,12 +10648,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
-  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
-
-"prettier@^1.18.2 || ^2.0.0":
+prettier@2.5.1, "prettier@^1.18.2 || ^2.0.0":
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.1.tgz#fff75fa9d519c54cf0fce328c1017d94546bc56a"
   integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
@@ -11558,6 +11529,11 @@ safe-stable-stringify@^1.1.0:
   resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-1.1.1.tgz#c8a220ab525cd94e60ebf47ddc404d610dc5d84a"
   integrity sha512-ERq4hUjKDbJfE4+XtZLFPCDi8Vb1JqaxAPTxWFLBx8XcAlf9Bda/ZJdVezs/NAfsMQScyIlUMx+Yeu7P7rx5jw==
 
+safe-stable-stringify@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz#ab67cbe1fe7d40603ca641c5e765cb942d04fc73"
+  integrity sha512-kYBSfT+troD9cDA85VDnHZ1rpHC50O0g1e6WlGHVCz/g+JS+9WKLj+XwFYyR8UbrZN8ll9HUpDAAddY58MGisg==
+
 "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@^2.1.2, safer-buffer@~2.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
@@ -11767,10 +11743,10 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shelljs@0.8.4:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
-  integrity sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==
+shelljs@0.8.5:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz#de055408d8361bed66c669d2f000538ced8ee20c"
+  integrity sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
@@ -12861,7 +12837,7 @@ trim@0.0.1:
   resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
   integrity sha1-WFhUf2spB1fulczMZm+1AITEYN0=
 
-triple-beam@^1.2.0, triple-beam@^1.3.0:
+triple-beam@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/triple-beam/-/triple-beam-1.3.0.tgz#a595214c7298db8339eeeee083e4d10bd8cb8dd9"
   integrity sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==
@@ -13858,29 +13834,30 @@ widest-line@^3.1.0:
   dependencies:
     string-width "^4.0.0"
 
-winston-transport@^4.4.0:
-  version "4.4.2"
-  resolved "https://registry.yarnpkg.com/winston-transport/-/winston-transport-4.4.2.tgz#554efe3fce229d046df006e0e3c411d240652e51"
-  integrity sha512-9jmhltAr5ygt5usgUTQbEiw/7RYXpyUbEAFRCSicIacpUzPkrnQsQZSPGEI12aLK9Jth4zNcYJx3Cvznwrl8pw==
+winston-transport@^4.4.2:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/winston-transport/-/winston-transport-4.5.0.tgz#6e7b0dd04d393171ed5e4e4905db265f7ab384fa"
+  integrity sha512-YpZzcUzBedhlTAfJg6vJDlyEai/IFMIVcaEZZyl3UXIl4gmqRpU7AE89AHLkbzLUsv0NVmw7ts+iztqKxxPW1Q==
   dependencies:
     logform "^2.3.2"
-    readable-stream "^3.4.0"
-    triple-beam "^1.2.0"
+    readable-stream "^3.6.0"
+    triple-beam "^1.3.0"
 
-winston@3.3.3:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/winston/-/winston-3.3.3.tgz#ae6172042cafb29786afa3d09c8ff833ab7c9170"
-  integrity sha512-oEXTISQnC8VlSAKf1KYSSd7J6IWuRPQqDdo8eoRNaYKLvwSb5+79Z3Yi1lrl6KDpU6/VWaxpakDAtb1oQ4n9aw==
+winston@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/winston/-/winston-3.5.1.tgz#b25cc899d015836dbf8c583dec8c4c4483a0da2e"
+  integrity sha512-tbRtVy+vsSSCLcZq/8nXZaOie/S2tPXPFt4be/Q3vI/WtYwm7rrwidxVw2GRa38FIXcJ1kUM6MOZ9Jmnk3F3UA==
   dependencies:
     "@dabh/diagnostics" "^2.0.2"
-    async "^3.1.0"
+    async "^3.2.3"
     is-stream "^2.0.0"
-    logform "^2.2.0"
+    logform "^2.3.2"
     one-time "^1.0.0"
     readable-stream "^3.4.0"
+    safe-stable-stringify "^2.3.1"
     stack-trace "0.0.x"
     triple-beam "^1.3.0"
-    winston-transport "^4.4.0"
+    winston-transport "^4.4.2"
 
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
