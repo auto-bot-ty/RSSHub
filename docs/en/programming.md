@@ -219,6 +219,10 @@ For instance, the `/github/topics/framework/l=php&o=desc&s=stars` route will gen
 
 <RouteEn author="TonyRL" example="/github/wiki/flutter/flutter/Roadmap" path="/github/wiki/:user/:repo/:page?" :paramsDesc="['User / Org name', 'Repo name', 'Page slug, can be found in URL, empty means Home']" radar="1" rssbud="1"/>
 
+### Notifications
+
+<RouteEn author="zhzy0077" example="/github/notifications" path="/github/notifications" radar="1" rssbud="1" selfhost="1"/>
+
 ## GitLab
 
 ### Explore
@@ -318,6 +322,13 @@ Subscribe to the updates (threads and submission) from a paritcular Hacker News 
 | All Categories | Featured | Research | Recruitment | Getting started | Masters | Playground | Analytics |
 
 </RouteEn>
+
+## Layer3
+
+### Quest
+
+<RouteEn author="nczitzk" example="/layer3/quests" path="/layer3/quests" radar="1"/>
+
 
 ## LeetCode
 

@@ -200,6 +200,10 @@ Return results from 2020
 
 <RouteEn author="Derekmini auto-bot-ty" example="/ieee/journal/78/recent" path="/ieee/journal/:journal/recent/:sortType?" :paramsDesc="['Journal code, the number of the `punumber` in the URL','Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`']" radar="1" rssbud="1"/>
 
+### Early Access Journal
+
+<RouteEn author="5upernova-heng" example="/ieee/journal/5306045/earlyaccess" path="/ieee/journal/:journal/earlyaccess/:sortType?" :paramsDesc="['Issue code, the number of the `isnumber` in the URL','Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`']" radar="1" rssbud="1"/>
+
 ## INFORMS
 
 ### Category
@@ -432,6 +436,46 @@ Including 'Science', 'Science Advances', 'Science Immunology', 'Science Robotics
 ### Journal
 
 <RouteEn author="Derekmini TonyRL" example="/springer/journal/10450" path="/springer/journal/:journal" :paramsDesc="['Journal Code, the number in the URL from the journal homepage']" radar="1" rssbud="1"/>
+
+## Telecompaper
+
+### News
+
+<RouteEn author="nczitzk" example="/telecompaper/news/mobile/2020/China/News" path="/telecompaper/news/:caty/:year?/:country?/:type?" :paramsDesc="['Category, see table below', 'Year. The year in respective category page filter, `all` for unlimited year, empty by default', 'Country or continent, `all` for unlimited country or continent, empty by default', 'Type, can be found in the `Types` filter, `all` for unlimited type, unlimited by default']">
+
+Category
+
+| WIRELESS | BROADBAND | VIDEO     | GENERAL | IT | INDUSTRY RESOURCES |
+| -------- | --------- | --------- | ------- | -- | ------------------ |
+| mobile   | internet  | boardcast | general | it | industry-resources |
+
+::: tip Tips
+
+If `country` or `type` includes empty space, use `-` instead. For example, `United States` needs to be replaced with `United-States`, `White paper` needs to be replaced with `White-paper`
+
+Filters in [INDUSTRY RESOURCES](https://www.telecompaper.com/industry-resources) only provides `Content Type` which corresponds to `type`. `year` and `country` are not supported.
+
+:::
+
+</RouteEn>
+
+### Search
+
+<RouteEn author="nczitzk" example="/telecompaper/search/Nokia" path="/telecompaper/search/:keyword?/:company?/:sort?/:period?" :paramsDesc="['Keyword', 'Company name, empty by default', 'Sorting, see table below, `Date Descending` by default', 'Date selection, Last 12 months by default']">
+
+Sorting
+
+| Date Ascending | Date Descending |
+| -------------- | --------------- |
+| 1              | 2               |
+
+Date selection
+
+| 1 month | 3 months | 6 months | 12 months | 24 months |
+| ------- | -------- | -------- | --------- | --------- |
+| 1       | 3        | 6        | 12        | 24        |
+
+</RouteEn>
 
 ## The University of Chicago Press: Journals
 

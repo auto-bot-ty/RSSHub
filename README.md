@@ -33,14 +33,6 @@ RSSHub 是一个开源、简单易用、易于扩展的 RSS 生成器，可以�
 
 ## Special Thanks
 
-### Special Sponsors
-
-<p>
-<a href="https://rss3.io/" target="_blank"><img height="50px" src="https://i.imgur.com/vHtI4bz.png"></a>
-</p>
-
-[![](https://opencollective.com/static/images/become_sponsor.svg)](https://docs.rsshub.app/en/support/)
-
 ### Contributors
 
 [![](https://opencollective.com/RSSHub/contributors.svg?width=890)](https://github.com/DIYgod/RSSHub/graphs/contributors)
@@ -96,8 +88,8 @@ Recurring donors will be rewarded via express issue response, or even have your 
 
 We accept donations via the following ways:
 
--   [WeChat Pay](https://diygod.me/images/wx.jpg)
--   [Alipay](https://diygod.me/images/zfb.jpg)
+-   [WeChat Pay](https://archive.diygod.me/images/wx.jpg)
+-   [Alipay](https://archive.diygod.me/images/zfb.jpg)
 -   [Paypal](https://www.paypal.me/DIYgod)
 
 ## Author

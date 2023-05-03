@@ -134,10 +134,27 @@ All templates should be placed in the namespace's `templates` folder with the `.
 
 Here's an example taken from the [furstar](https://github.com/DIYgod/RSSHub/blob/master/lib/v2/furstar) namespace:
 
-<<< @/lib/v2/furstar/templates/author.art
+```html
+<div>
+    <img src="{{ avatar }}" />
+    {{ if link !== null }}
+    <a href="{{ link }}">{{name}}</a>
+    {{ else }}
+    <a href="#">{{name}}</a>
+    {{ /if }}
+</div>
+```
 
 ```js
 const path = require('path');
 const { art } = require('@/utils/render');
 const renderAuthor = (author) => art(path.join(__dirname, 'templates/author.art'), author);
 ```
+
+### v1 Route Standard
+
+::: danger Warning
+
+The v1 Route Standard is deprecated. All new routes should be following the [v2 Route Standard](/en/joinus/script-standard.html#v2-route-standard).
+
+:::
