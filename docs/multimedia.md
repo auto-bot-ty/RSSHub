@@ -12,43 +12,43 @@ pageClass: routes
 
 :::
 
-### 141JAV BT
+### 通用
 
-<Route author="cgkings" example="/141jav/popular/30" path="/141jav/:type/:key?" :paramsDesc="['类型', '关键词']" supportBT="1" radar="1">
+<Route author="cgkings nczitzk" example="/141jav/popular/30" path="/141jav/:type?/:keyword?" :paramsDesc="['类型', '关键词']" supportBT="1" radar="1">
 
 **类型**
 
-| 最新 | 热门    | 随机   | 指定演员 | 指定标签 | 指定日期 |
-| ---- | ------- | ------ | -------- | -------- | -------- |
-| new  | popular | random | actress  | tag      | day      |
+| 最新 | 热门    | 随机   | 指定演员 | 指定标签 |
+| ---- | ------- | ------ | -------- | -------- |
+| new  | popular | random | actress  | tag      |
 
 **关键词**
 
-| 空 | 日期范围    | 演员名       | 标签名         | 日期     |
-| -- | ----------- | ------------ | -------------- | -------- |
-|    | 7 / 30 / 60 | Yua%20Mikami | Adult%20Awards | YYYYMMDD |
+| 空 | 日期范围    | 演员名       | 标签名         |
+| -- | ----------- | ------------ | -------------- |
+|    | 7 / 30 / 60 | Yua%20Mikami | Adult%20Awards |
 
 **示例说明**
 
 -   `/141jav/new`
 
-    仅当类型为 `new` `popular` 或 `random` 时关键词可为 **空**
+    仅当类型为 `new` `popular` 或 `random` 时关键词为 **空**
 
 -   `/141jav/popular/30`
 
-    `popular` `random` 类型的关键词可填写 `7` `30` 或 `60` 三个 **日期范围** 之一
+    `popular` `random` 类型的关键词可填写 `7` `30` 或 `60` 三个 **日期范围** 之一，分别对应 **7 天**、**30 天** 或 **60 天内**
 
 -   `/141jav/actress/Yua%20Mikami`
 
-    `actress` 类型的关键词必须填写 **演员名** ，可在 [此处](https://141jav.com/actress/) 演员单页链接中获取
+    `actress` 类型的关键词必须填写 **演员名** ，可在 [此处](https://141jav.com/actress) 演员单页链接中获取
 
 -   `/141jav/tag/Adult%20Awards`
 
-    `tag` 类型的关键词必须填写 **标签名** 且标签中的 `/` 必须替换为 `%2F` ，可在 [此处](https://141jav.com/tag/) 标签单页链接中获取
+    `tag` 类型的关键词必须填写 **标签名** 且标签中的 `/` 必须替换为 `%2F` ，可在 [此处](https://141jav.com/tag) 标签单页链接中获取
 
--   `/141jav/day/20200730`
+-   `/141jav/date/2020/07/30`
 
-    `day` 类型的关键词必须填写 **日期** ，按照示例写成形如 `20200730` 的格式
+    `date` 类型的关键词必须填写 **日期**
 
 </Route>
 
@@ -60,43 +60,43 @@ pageClass: routes
 
 :::
 
-### 141PPV BT
+### 通用
 
-<Route author="cgkings" example="/141ppv/popular/30" path="/141ppv/:type/:key?" :paramsDesc="['类型', '关键词']" supportBT="1" radar="1">
+<Route author="cgkings nczitzk" example="/141ppv/popular/30" path="/141ppv/:type?/:keyword?" :paramsDesc="['类型', '关键词']" supportBT="1" radar="1">
 
 **类型**
 
-| 最新 | 热门    | 随机   | 指定演员 | 指定标签 | 指定日期 |
-| ---- | ------- | ------ | -------- | -------- | -------- |
-| new  | popular | random | actress  | tag      | day      |
+| 最新 | 热门    | 随机   | 指定演员 | 指定标签 |
+| ---- | ------- | ------ | -------- | -------- |
+| new  | popular | random | actress  | tag      |
 
 **关键词**
 
-| 空 | 日期范围    | 演员名       | 标签名         | 日期     |
-| -- | ----------- | ------------ | -------------- | -------- |
-|    | 7 / 30 / 60 | Yua%20Mikami | Adult%20Awards | YYYYMMDD |
+| 空 | 日期范围    | 演员名       | 标签名         |
+| -- | ----------- | ------------ | -------------- |
+|    | 7 / 30 / 60 | Yua%20Mikami | Adult%20Awards |
 
 **示例说明**
 
 -   `/141ppv/new`
 
-    仅当类型为 `new` `popular` 或 `random` 时关键词可为 **空**
+    仅当类型为 `new` `popular` 或 `random` 时关键词为 **空**
 
 -   `/141ppv/popular/30`
 
-    `popular` `random` 类型的关键词可填写 `7` `30` 或 `60` 三个 **日期范围** 之一
+    `popular` `random` 类型的关键词可填写 `7` `30` 或 `60` 三个 **日期范围** 之一，分别对应 **7 天**、**30 天** 或 **60 天内**
 
 -   `/141ppv/actress/Yua%20Mikami`
 
-    `actress` 类型的关键词必须填写 **演员名** ，可在 [此处](https://141ppv.com/actress/) 演员单页链接中获取
+    `actress` 类型的关键词必须填写 **演员名** ，可在 [此处](https://141ppv.com/actress) 演员单页链接中获取
 
 -   `/141ppv/tag/Adult%20Awards`
 
-    `tag` 类型的关键词必须填写 **标签名** 且标签中的 `/` 必须替换为 `%2F` ，可在 [此处](https://141ppv.com/tag/) 标签单页链接中获取
+    `tag` 类型的关键词必须填写 **标签名** 且标签中的 `/` 必须替换为 `%2F` ，可在 [此处](https://141ppv.com/tag) 标签单页链接中获取
 
--   `/141ppv/day/20200730`
+-   `/141ppv/date/2020/07/30`
 
-    `day` 类型的关键词必须填写 **日期** ，按照示例写成形如 `20200730` 的格式
+    `date` 类型的关键词必须填写 **日期**
 
 </Route>
 
@@ -141,6 +141,22 @@ pageClass: routes
 | 聚友客栈 | 坛友自售 |
 | -------- | -------- |
 | 57       | 136      |
+
+</Route>
+
+## 4k 世界
+
+### 分类
+
+<Route author="nczitzk" example="/4ksj/forum" path="/4ksj/forum/:id?" :paramsDesc="['分类 id，默认为最新4K电影']">
+
+::: tip 提示
+
+若订阅 [最新 4K 电影](https://www.4ksj.com/forum-2-1.html)，网址为 <https://www.4ksj.com/forum-2-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `2-1` 作为参数，此时路由为 [`/4ksj/forum/2-1`](https://rsshub.app/4ksj/forum/2-1)。
+
+若订阅子分类 [Dolby Vision 纪录片 4K 电影](https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html)，网址为 <https://www.4ksj.com/forum-4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1.html>。截取 `https://www.4ksj.com/forum-` 到末尾 `.html` 的部分 `4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1` 作为参数，此时路由为 [`/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1`](https://rsshub.app/4ksj/forum/4kdianying-s7-dianyingbiaozhun-3-dytypes-9-1)。
+
+:::
 
 </Route>
 
@@ -529,6 +545,20 @@ BT 之家的域名会变更，本路由以 <https://www.btbtt20.com> 为默认�
 ### イヤーマイッタマイッタ
 
 <Route author="fengkx" example="/ibc/maitta" path="/ibc/maitta" supportPodcast="1" radar="1"/>
+
+### ラジオ
+
+<Route author="nczitzk" example="/ibc/radio/maitta" path="/ibc/radio/:id?" :paramsDesc="['节目 id, 可在节目页 URL 中找到，默认为 イヤーマイッタマイッタ']" supportPodcast="1">
+
+::: tip 提示
+
+若订阅 [イヤーマイッタマイッタ](https://www.ibc.co.jp/radio/maitta/audio)，网址为 <https://www.ibc.co.jp/radio/maitta/audio>。截取 `https://www.ibc.co.jp/radio/` 到末尾的部分 `/audio/` 之间的 `maitta` 作为参数，此时路由为 [`/ibc/radio/maitta`](https://rsshub.app/ibc/radio/maitta)。
+
+若订阅 [火曜ワイド「境界トラブル解決ラジオ！」](https://www.ibc.co.jp/radio/TochiKyokai/audio)，网址为 <https://www.ibc.co.jp/radio/TochiKyokai/audio>。截取 `https://www.ibc.co.jp/radio/` 到末尾的部分 `/audio/` 之间的 `TochiKyokai` 作为参数，此时路由为 [`/ibc/radio/TochiKyokai`](https://rsshub.app/ibc/radio/TochiKyokai)。
+
+:::
+
+</Route>
 
 ## JavBus
 
@@ -1479,6 +1509,10 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 
 <Route author="sanmmm" example="/storyfm/index" path="/storyfm/index"/>
 
+### 播客
+
+<Route author="nczitzk" example="/storyfm/episodes" path="/storyfm/episodes" supportPodcast="1"/>
+
 ## 开眼
 
 ### 每日精选
@@ -1617,6 +1651,10 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 
 </Route>
 
+### 作者文章
+
+<Route author="JamYiz" example="/sehuatang/user/411096" path="/sehuatang/user/:uid" :paramsDesc="['用户 uid, 可在用户主页 URL 中找到']" selfhost="1"/>
+
 ## 深影译站
 
 ### 首页
@@ -1652,6 +1690,12 @@ JavDB 有多个备用域名，本路由默认使用永久域名 <https://javdb.c
 ### 播放列表
 
 <Route author="Andiedie" example="/tencentvideo/playlist/jx7g4sm320sqm7i" path="/tencentvideo/playlist/:id" :paramsDesc="['播放列表 ID，可以在 URL 中找到']" radar="1" />
+
+## 听听 FM
+
+### 节目
+
+<Route author="TonyRL" example="/tingtingfm/program/M7VJv6Jj4R" path="/tingtingfm/program/:programId" :paramsDesc="['节目 ID，可以在 URL 中找到']" radar="1" supportPodcast="1"/>
 
 ## 弯弯字幕组
 
